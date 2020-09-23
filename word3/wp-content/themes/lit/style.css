@@ -1,0 +1,293 @@
+/*
+Theme Name: Lit
+Theme URI: https://fireflythemes.com/themes/lit/
+Author: FireFly Themes
+Author URI: https://fireflythemes.com/
+Description: This is a child theme of JetBlack. This theme gives you all the features of JetBlack but in lighter skin. It also adds different header options to JetBlack theme. Visit https://fireflythemes.com/support for support, https://fireflythemes.com/documentation/jetblack for theme documentation and https://fireflythemes.com/demo/jetblack-lit for demo.
+Version: 1.0.4
+Requires at least: 5.2
+Tested up to: 5.5
+Requires PHP: 5.6
+License: GNU General Public License v3 or later
+License URI: https://www.gnu.org/licenses/license-list.html#GNUGPLv3
+Text Domain: lit
+Template: jetblack
+Tags: blog, news, portfolio, grid-layout, one-column, two-columns, right-sidebar, custom-background, custom-header, custom-logo, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks
+
+Lit Theme WordPress Theme, Copyright 2020 FireFly Themes
+Lit Theme is distributed under the terms of the GNU GPL
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/**
+ * Light Color Scheme
+ */
+ a,a:visited {
+    color: #222;
+}a:active, a:focus, a:hover {
+    color: #25d5b2;
+}
+.inner-block-shadow, .featured-grid-section .featured-grid-text-content, .section-latest-posts .latest-posts-text-content, .section-teams .team-text-wrap, .blog .entry-container, .archive .entry-container, .blog .hentry-inner, .archive .hentry-inner, .hentry-inner, .single-content-wraper, .sidebar .widget,#respond,.counter-section .counter-icon,.section-testimonial .testimonial-wrapper,body,
+.section,#search-container,#search-container:after,
+a.wwd-fonts-icon, .key-features-section a.key-features-icon,
+#masthead,.main-navigation ul ul,.main-navigation ul ul:before,.section-filter-content .item-inner-wrapper .filter-content-content,.section-contact {
+  background: #fff;
+}
+.dark-patten .main-navigation ul li li a, .dark-patten .main-navigation ul li li a:visited {
+    color: #000000;
+}
+.overlap-header .main-navigation ul li a, .overlap-header #search-toggle, .overlap-header .cart-contents a, .overlap-header .cart-contents a:visited, .overlap-header .site-title a, .overlap-header p.site-description, .overlap-header .site-title a, .overlap-header .site-title a:visited {
+    color: #222;
+}
+a.wwd-fonts-icon, .key-features-section a.key-features-icon,.counter-section .counter-icon {
+     box-shadow: 0 0 13px #2222221a;
+}
+.even-section {
+    background: #f1f1f1;
+}
+body, button, input, select, optgroup, textarea {
+    color: #797978;
+}
+
+.main-navigation ul li a , .recent-work-filter button {
+    color: #000000;
+}
+ a.more-link, a.more-link:visited,.search-form .search-submit,.counter-section .counter-icon {
+  color:#222;
+ }
+ .sidebar ul li a, .sidebar ul li a:visited {
+    color: #000000;
+}
+.widget .tagcloud a {
+    color: #060606;
+}
+.entry-title a, .entry-title a:visited {
+    color: #212121;
+}
+.inner-block-shadow {
+    -webkit-box-shadow: 0 0 32px 0 rgba(122,122,122,.1);
+    -moz-box-shadow: 0 0 32px 0 rgba(122,122,122,.1);
+    -ms-box-shadow: 0 0 32px 0 rgba(122,122,122,.1);
+    -o-box-shadow: 0 0 32px 0 rgba(122,122,122,.1);
+    box-shadow: 0 0 32px 0 rgba(122,122,122,.1);
+    -webkit-transition: box-shadow .3s,transform .3s;
+    -moz-transition: box-shadow .3s,transform .3s;
+    -ms-transition: box-shadow .3s,transform .3s;
+    -o-transition: box-shadow .3s,transform .3s;
+    transition: box-shadow .3s,transform .3s;
+    border-bottom-width: 4px;
+}
+.inner-block-shadow:hover, .inner-block-shadow:focus, .inner-block-shadow:active {
+    -webkit-box-shadow: 1px 4px 20px -2px rgba(0,0,0,0.2);
+     box-shadow: 1px 4px 20px -2px rgba(0,0,0,0.2);
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+  color: #666;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+  color: #111;
+  border:1px solid #000;
+}
+
+select {
+  border: 1px solid #ccc;
+}
+
+
+
+a:hover,
+a:focus,
+a:active {
+  color: #000;
+}
+
+.site-title a, .site-title a:visited {
+    color: #000000;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+h1 a:visited,
+h2 a:visited,
+h3 a:visited,
+h4 a:visited,
+h5 a:visited,
+h6 a:visited {
+  color: #000000;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover,
+h1 a:focus,
+h2 a:focus,
+h3 a:focus,
+h4 a:focus,
+h5 a:focus,
+h6 a:hover,
+h1 a:active,
+h2 a:active,
+h3 a:active,
+h4 a:active,
+h5 a:active,
+h6 a:active{
+  color: #22d095;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+}
+a.ff-button:hover, button:hover, a.button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, button:focus, a.button:focus, a.ff-button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, button:active, a.ff-button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+    background: #101010;
+    color: #ffffff;
+}
+
+.menu-toggle, .menu-toggle:visited {
+    color: #1f1d1d;
+}
+
+#quick-contact.layout-two a, #quick-contact.layout-two a:visited, #quick-contact.layout-two, #quick-contact.layout-two li {
+    color: #252323;
+}
+#site-top-header-mobile-container {
+
+    background: #464444;
+
+}
+.main-header-two #search-toggle, .main-header-two #search-toggle:visited, .main-header-two .cart-contents a,.main-header-two .cart-contents a:visited {
+    color: #080808;
+}
+
+.social-nav ul li a:before, .social-nav ul li a[href$="/feed/"]:before {
+    color: #222;
+}
+#search-toggle, #search-toggle:visited, .cart-contents a, .cart-contents a:visited {
+    color: #fff;
+}
+
+
+.main-header-two #main-nav .nav-box-shadow {
+    background: #f5f5f5;
+
+}
+#masthead.sticky-enabled.sticky-header, .sticky-enabled.sticky-header {
+    background: #ffffff;
+
+}
+#search-toggle, #search-toggle:visited, .cart-contents a, .cart-contents a:visited {
+    color: #0e0e0e;
+}
+.counter-section .counter-nos {
+    color: #080808;
+}
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    background: #ffffff;
+}
+.woocommerce ul.products li.product .price {
+    color: #000000;
+}
+.tag-post-formats .entry-container::before, .blog .hentry .entry-container::before, .archive .hentry .entry-container::before, .single .hentry .entry-container::before {
+    color: #000000;
+    background: #f1f1f1;
+}
+.woocommerce.layout-no-sidebar-full-width .columns-3 ul.products li.product, .layout-no-sidebar-full-width.woocommerce-page .columns-3 ul.products li.product,.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    background: #f5f5f5;
+}
+
+select {
+    border: 1px solid #e4dbdb;
+    background: #f7f7f7;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+    color: #000;
+    font-weight: 500;
+    padding: 10px 30px;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    background: none;
+}
+@media screen and (max-width: 909px){
+	.main-navigation ul li a {
+	color: #fff;
+	}
+	#site-top-header-mobile-container,.site-primary-menu {
+	background: #fff;
+	}
+	#top-header #site-top-header-mobile-container li a, #top-header #site-top-header-mobile-container li a:hover, #top-header #site-top-header-mobile-container li a:focus, #top-header #site-top-header-mobile-container, #top-header #site-top-header-mobile-container p, #top-header #site-top-header-mobile-container li {
+	color: #000;
+	}
+
+	#site-top-header-mobile-container {
+	background: #ffffff;
+	}
+	.dark-top-header #site-top-header-mobile-container .social-nav ul li a:before {
+	color: #060606;
+	}
+	.main-navigation ul li a,.dropdown-toggle:after {
+	color: #222;
+	}
+	.menu-toggle {
+	background: #ffffff;
+	box-shadow: 0 0 9px rgb(34 34 34 / 14%);
+	}
+	.site-primary-menu {
+
+	background: #ffffff;
+	}
+	.dropdown-toggle {
+	color: #000;
+	}
+#header-top-toggle:focus, #header-top-toggle:active, #header-top-toggle:hover {
+    background: #ffffff;
+    color: #1d1b1b;
+}
+.menu-toggle:focus, .menu-toggle:active, .menu-toggle:hover {
+    background: #222;
+    color: #fff;
+}
+
+
+}
+
+

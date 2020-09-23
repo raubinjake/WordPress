@@ -1,0 +1,632 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: world blog\n"
+"POT-Creation-Date: 2019-05-06 00:43+0300\n"
+"PO-Revision-Date: 2019-05-06 00:43+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:18
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:21
+msgid "Home Back"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:34
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:40
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:47
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:110
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions.php:112 functions.php:122 functions.php:133 functions.php:143
+#: functions.php:153
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:120
+msgid "Left Sidebar"
+msgstr ""
+
+#: functions.php:131
+msgid "Footer Widget 1"
+msgstr ""
+
+#: functions.php:141
+msgid "Footer Widget 2"
+msgstr ""
+
+#: functions.php:151
+msgid "Footer Widget 3"
+msgstr ""
+
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:265
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:266 index.php:25
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:267
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:268
+msgid "Archives"
+msgstr ""
+
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:270
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:272
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:274
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:276
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:278
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:738
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:755
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:772
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:788
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:817
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:844
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:871
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:1211
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:789
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:845
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:1215
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:790
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:1219
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/breadcrumb-trail-master/inc/breadcrumbs.php:818
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/header/header-topline.php:18
+msgid "Sunday"
+msgstr ""
+
+#: inc/header/header-topline.php:18
+msgid "Monday"
+msgstr ""
+
+#: inc/header/header-topline.php:18
+msgid "Tuesday"
+msgstr ""
+
+#: inc/header/header-topline.php:18
+msgid "Wednesday"
+msgstr ""
+
+#: inc/header/header-topline.php:18
+msgid "Thursday"
+msgstr ""
+
+#: inc/header/header-topline.php:18
+msgid "Friday"
+msgstr ""
+
+#: inc/header/header-topline.php:18
+msgid "Saturday"
+msgstr ""
+
+#: inc/header/header-topline.php:19
+msgid "January"
+msgstr ""
+
+#: inc/header/header-topline.php:19
+msgid "February"
+msgstr ""
+
+#: inc/header/header-topline.php:19
+msgid "March"
+msgstr ""
+
+#: inc/header/header-topline.php:19
+msgid "April"
+msgstr ""
+
+#: inc/header/header-topline.php:19
+msgid "May"
+msgstr ""
+
+#: inc/header/header-topline.php:19
+msgid "June"
+msgstr ""
+
+#: inc/header/header-topline.php:19
+msgid "July"
+msgstr ""
+
+#: inc/header/header-topline.php:19
+msgid "August"
+msgstr ""
+
+#: inc/header/header-topline.php:19
+msgid "September"
+msgstr ""
+
+#: inc/header/header-topline.php:19
+msgid "October"
+msgstr ""
+
+#: inc/header/header-topline.php:19
+msgid "November"
+msgstr ""
+
+#: inc/header/header-topline.php:19
+msgid "December"
+msgstr ""
+
+#: inc/header/header-topline.php:22
+msgid "Date:"
+msgstr ""
+
+#: inc/header/header-topline.php:22
+msgid "Day:"
+msgstr ""
+
+#: inc/header/header-topline.php:22
+msgid "Hour:"
+msgstr ""
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:62
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:69
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:82
+#, php-format
+msgid " Leave a Comment <span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99 template-parts/content-page.php:37
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/welcome/sections/actions-required.php:12
+msgid "1. Activate theme."
+msgstr ""
+
+#: inc/welcome/sections/actions-required.php:13
+msgid ""
+"Activate your world-blog theme in the Themes section under the appearance of "
+"the side menu . After activating your theme, consider its notifications . "
+msgstr ""
+
+#: inc/welcome/sections/actions-required.php:17
+#: inc/welcome/sections/actions-required.php:27
+#: inc/welcome/sections/actions-required.php:38
+#: inc/welcome/sections/actions-required.php:48
+msgid "world-blog Teması"
+msgstr ""
+
+#: inc/welcome/sections/actions-required.php:22
+msgid "2. Automatic plug-in installations "
+msgstr ""
+
+#: inc/welcome/sections/actions-required.php:23
+msgid ""
+"Click on the notifications of the relevant plugins. Start installing your "
+"add-ons automatically. Activate your installed add-ons now . "
+msgstr ""
+
+#: inc/welcome/sections/actions-required.php:33
+msgid "3. In-page templates "
+msgstr ""
+
+#: inc/welcome/sections/actions-required.php:34
+msgid ""
+"You can make your in-page templates when you create a new page. You have "
+"options in-page full width, right sidebar, left sidebar . "
+msgstr ""
+
+#: inc/welcome/sections/actions-required.php:43
+msgid "4. Create front page"
+msgstr ""
+
+#: inc/welcome/sections/actions-required.php:44
+msgid ""
+"Appearance > Customize > homepage settings or Settings > Reading . you can "
+"set the page you want from this section as homepage. You can set any of your "
+"pages as blog pages ."
+msgstr ""
+
+#: inc/welcome/sections/getting-started.php:14
+msgid "About"
+msgstr ""
+
+#: inc/welcome/sections/getting-started.php:15
+msgid ""
+"world-blog theme is a multipurpose wordpress theme. It is manageable with "
+"all devices responsive and has the appearance. By activating different "
+"layouts, more than one site can be created. Theme functions can be set. "
+"Theme woocommerce supported. You can promote your products by creating "
+"product pages. Specify your payment types. Learn about the theme"
+msgstr ""
+
+#: inc/welcome/sections/getting-started.php:17
+msgid ""
+"If you are using wordpress for the first time, you can get information from "
+"our website. Wordpress has easy interface. Very easy to use. Try it once. "
+"Its easy to understand everything. Be sure to make all your settings. Enjoy "
+"this theme"
+msgstr ""
+
+#: inc/welcome/sections/getting-started.php:23
+msgid "world-blog-getting"
+msgstr ""
+
+#: inc/welcome/sections/github.php:12
+msgid "Why paid theme"
+msgstr ""
+
+#: inc/welcome/sections/github.php:13
+msgid ""
+"Makes your site more professional by getting the most ideal paid themes for "
+"more professional features"
+msgstr ""
+
+#: inc/welcome/sections/github.php:19
+msgid "SEO Friendly URL"
+msgstr ""
+
+#: inc/welcome/sections/github.php:20
+msgid ""
+"This feature helps to rename the slug name from the persistent connection "
+"URL and allows you to be SEO friendly."
+msgstr ""
+
+#: inc/welcome/sections/github.php:26
+msgid "Content Management"
+msgstr ""
+
+#: inc/welcome/sections/github.php:27
+msgid ""
+"The new version of Wordpress has renewed the editor. You can still use the "
+"old editor. Switch to the old editor by activating the classic editor plug-"
+"in."
+msgstr ""
+
+#: inc/welcome/sections/github.php:33
+msgid "Write a blog"
+msgstr ""
+
+#: inc/welcome/sections/github.php:34
+msgid ""
+"Click on the posts menu in the side menu.You'll know how to create your blog "
+"posts. Create your category and tags with images"
+msgstr ""
+
+#: inc/welcome/sections/github.php:40
+msgid "Media"
+msgstr ""
+
+#: inc/welcome/sections/github.php:41
+msgid ""
+"You want your videos to appear on your media, your images, and the page you "
+"want. Add pictures and videos with Plugin tools"
+msgstr ""
+
+#: inc/welcome/sections/github.php:47
+msgid "Create pages"
+msgstr ""
+
+#: inc/welcome/sections/github.php:48
+msgid ""
+"Click the side menu page button and wordpress will help you create unlimited "
+"pages. With the new button you can perform your steps"
+msgstr ""
+
+#: inc/welcome/sections/github.php:54
+msgid "Comments"
+msgstr ""
+
+#: inc/welcome/sections/github.php:55
+msgid ""
+"Comments on your posts appear in the list under the comments tab. Just "
+"waiting for your confirmation"
+msgstr ""
+
+#: inc/welcome/sections/github.php:61
+msgid "Apperance"
+msgstr ""
+
+#: inc/welcome/sections/github.php:62
+msgid ""
+"You can find information such as theme selection, customizations, widgets, "
+"theme etc"
+msgstr ""
+
+#: inc/welcome/sections/github.php:68
+msgid "Plugins"
+msgstr ""
+
+#: inc/welcome/sections/github.php:69
+msgid ""
+"Use this section to install the new plugin and download an add-on from "
+"wordpress.org"
+msgstr ""
+
+#: inc/welcome/sections/github.php:75
+msgid "Users"
+msgstr ""
+
+#: inc/welcome/sections/github.php:76
+msgid ""
+"Create users and give them roles. You can create restricted users to "
+"access . Enjoy this section"
+msgstr ""
+
+#: inc/welcome/sections/github.php:82
+msgid "Tools"
+msgstr ""
+
+#: inc/welcome/sections/github.php:83
+msgid ""
+"Tools will help you to make your work easier. Many options like storing page "
+"backups etc. Very useful for ımport or export your pages and others"
+msgstr ""
+
+#: inc/welcome/sections/github.php:89
+msgid "Settings"
+msgstr ""
+
+#: inc/welcome/sections/github.php:90
+msgid ""
+"Your site settings, description, password refresh ,your front page settings "
+"and blog posts , a lot of permanent links will help you make your settings "
+msgstr ""
+
+#: inc/welcome/sections/github.php:97
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/welcome/sections/github.php:98
+msgid ""
+"Configure your theme options and import your desired edits and start "
+"building thousands of sites"
+msgstr ""
+
+#: inc/welcome/sections/github.php:105
+msgid "Get a new product and benefit from lifetime technical support services"
+msgstr ""
+
+#: inc/welcome/welcome-screen.php:42
+msgid ""
+"Welcome! Thank you for choosing the world blog multipurpose wp theme! Start "
+"by examining usage to fully utilize the best advantage your theme offers"
+msgstr ""
+
+#: inc/welcome/welcome-screen.php:43
+msgid "Start using the world blog theme"
+msgstr ""
+
+#: inc/welcome/welcome-screen.php:81
+msgid "No action is required for you right now."
+msgstr ""
+
+#: inc/welcome/welcome-screen.php:116
+msgid "View Theme Info"
+msgstr ""
+
+#: inc/welcome/welcome-screen.php:167
+msgid "Beginning"
+msgstr ""
+
+#: inc/welcome/welcome-screen.php:168
+msgid "Required operations"
+msgstr ""
+
+#: inc/welcome/welcome-screen.php:169
+msgid "Descriptions"
+msgstr ""
+
+#: index.php:25
+msgid "Latest Post"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:15
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:16
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:24 template-parts/content-single.php:23
+#: template-parts/content.php:50
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-single.php:27
+msgid "Page"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: template-parts/content-single.php:42
+#, php-format
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:39
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "world blog"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.atlasresponsivetasarim.com/products/world-blog/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This is a wordpress theme that will help you to promote your content and "
+"blog posts provided by the user editor to create your personal blog page. "
+"With the blog theme, start discovering your personal experiences, hobbies, "
+"site visitors and social media with the full feature management panel. "
+"Browser support. Plugin support, Translators ready and compatible with all "
+"devices is wordpress theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "atlas"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.atlasresponsivetasarim.com/"
+msgstr ""
